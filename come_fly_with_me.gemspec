@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ComeFlyWithMe::VERSION
   spec.authors       = ["jpatel531"]
   spec.email         = ["jamie@notespublication.com"]
-  spec.summary       = %q{Bla}
-  spec.description   = %q{Boo}
+  spec.summary       = %q{Sinatra Scaffold with Command Line Interface.}
+  spec.description   = %q{Scaffolds a Sinatra app with JQuery, Bootstrap, Compass, Sass and Angular}
   spec.homepage      = ""
   spec.license       = "MIT"
 
