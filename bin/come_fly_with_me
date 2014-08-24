@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'come_fly_with_me'
+
+scaffold = ComeFlyWithMe::Scaffold.new
+scaffold.generate
