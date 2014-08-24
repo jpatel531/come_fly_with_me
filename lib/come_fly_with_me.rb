@@ -8,6 +8,7 @@ module ComeFlyWithMe
   		system("mv sinatra-scaffold #{ARGV.first}")
   		system("sed -i.bak \"s/Waddup/#{ARGV.first}/g\" #{ARGV.first}/views/layouts/application.haml")
 		system("rm -f #{ARGV.first}/views/layouts/application.haml.bak")
+		system("git remote rm origin")
   	end
 
   end
