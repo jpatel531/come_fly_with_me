@@ -4,3 +4,4 @@ require 'come_fly_with_me'
 
 scaffold = ComeFlyWithMe::Scaffold.new
 scaffold.generate
+# scaffold.include_data_mapper if ARGV[1] == "dm"

@@ -1,24 +1,21 @@
 # ComeFlyWithMe
 
-TODO: Write a gem description
+This gem scaffolds a Sinatra app with Haml, Sass, Compass, JQuery and Angular based on https://github.com/agilbert201/sinatra-scaffold. I have done this to learn about creating gems and creating a command line interface with Ruby. 
 
-## Installation
+##Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'come_fly_with_me'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install the gem with as:
 
     $ gem install come_fly_with_me
 
 ## Usage
 
-TODO: Write usage instructions here
+In your command line, type:
+
+	$ come_fly_with_me your_app_name
+
+This will create the folder your_app_name, where you'll find a working Sinatra application with a 'Home' and 'About' page.
+
 
 ## Contributing
 
