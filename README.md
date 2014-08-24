@@ -4,7 +4,7 @@ This gem scaffolds a Sinatra app with Haml, Sass, Compass, JQuery and Angular ba
 
 ##Installation
 
-Install the gem with as:
+Install the gem as:
 
     $ gem install come_fly_with_me
 
